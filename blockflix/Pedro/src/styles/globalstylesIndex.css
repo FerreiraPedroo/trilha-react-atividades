@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-size: 22px;
+    /* border: 1px solid red; */
+}
+html{
+    background-color: #002;
+}
+.global-style-css-youtube-size{
+    max-width: 100%;
+    min-height: 360px;
+    height: auto;
+}
+.globalstyle-css-login-inputText{
+    width: 320px;
+    height: 36px;
+    border:0px;
+    border-radius: 4px;
+    padding: 0px 8px;
+}
+.globalstyle-css-login-form{
+    display:flex;
+    flex-direction:column;
+    padding: 60px 50px 100px 50px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.5);    
+}
+@media (max-width: 720px) {
+    .globalstyle-css-login-form{
+        padding: 60px 10px 100px 10px;
+    }
+}
